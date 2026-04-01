@@ -1,0 +1,7 @@
+#:schema https://developers.openai.com/codex/config-schema.json
+
+# Team Config for this repository.
+# Codex loads project-scoped config from `.codex/config.toml` after the project is trusted.
+# Keeping `.agents/plugins/marketplace.json` here as a root marker makes the marketplace
+# catalog an explicit part of the repository identity.
+project_root_markers = [".git", ".agents/plugins/marketplace.json", ".codex"]

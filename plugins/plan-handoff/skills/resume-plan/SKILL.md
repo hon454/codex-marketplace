@@ -1,6 +1,9 @@
 ---
 name: resume-plan
 description: Resume implementation in a fresh Codex session from the repo-local saved plan handoff. Use when the user asks to resume from plan handoff, implement the saved plan, or start from the latest handoff without reconstructing the prior session.
+shortDescription: Resume work directly from the saved repo-local handoff.
+iconSmall: ./assets/resume-plan-small.svg
+iconLarge: ./assets/resume-plan.svg
 ---
 
 # Resume Plan

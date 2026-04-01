@@ -32,8 +32,14 @@
     "websiteURL": "https://github.com/hon454/plan-handoff",
     "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
     "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
-    "defaultPrompt": "Save the latest proposed plan for next session handoff, or resume implementation from the saved plan.",
+    "defaultPrompt": [
+      "Save the latest plan for next session handoff.",
+      "Resume implementation from the saved handoff.",
+      "Prepare or continue a repo-local plan handoff."
+    ],
     "brandColor": "#0F172A",
+    "composerIcon": "./assets/plan-handoff-small.svg",
+    "logo": "./assets/plan-handoff.svg",
     "screenshots": []
   }
 }

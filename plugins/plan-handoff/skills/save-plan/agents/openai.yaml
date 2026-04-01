@@ -1,0 +1,4 @@
+interface:
+  display_name: "Save Plan"
+  short_description: "Save the latest proposed plan for the next session"
+  default_prompt: "Use $save-plan to save the latest proposed plan in this repository for the next session."

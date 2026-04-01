@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume Plan"
+  short_description: "Resume implementation from the saved repo-local plan"
+  default_prompt: "Use $resume-plan to implement the saved plan handoff in this repository."

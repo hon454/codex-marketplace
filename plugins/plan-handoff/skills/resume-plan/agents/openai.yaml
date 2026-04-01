@@ -1,4 +1,9 @@
 interface:
   display_name: "Resume Plan"
   short_description: "Resume implementation from the saved repo-local plan"
+  icon_small: "./assets/resume-plan-small.svg"
+  icon_large: "./assets/resume-plan.svg"
   default_prompt: "Use $resume-plan to implement the saved plan handoff in this repository."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,4 +1,9 @@
 interface:
   display_name: "Save Plan"
   short_description: "Save the latest proposed plan for the next session"
+  icon_small: "./assets/save-plan-small.svg"
+  icon_large: "./assets/save-plan.svg"
   default_prompt: "Use $save-plan to save the latest proposed plan in this repository for the next session."
+
+policy:
+  allow_implicit_invocation: false

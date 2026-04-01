@@ -4,9 +4,9 @@ A curated marketplace repository for installable Codex plugins.
 
 ## What This Repository Is
 
-This repository contains marketplace metadata for Codex plugins.
+This repository manages the marketplace catalog for installable Codex plugins.
 
-It is intentionally separate from individual plugin repositories so plugins can be versioned, released, and maintained independently.
+It stays marketplace-first, while still allowing packaged plugins to live under `plugins/` when that is the clearest way to distribute or validate them alongside the root catalog.
 
 ## Documentation Map
 
@@ -23,6 +23,16 @@ Use the documents in this order:
 codex-marketplace/
   .codex/config.toml
   .agents/plugins/marketplace.json
+  docs/
+    adding-a-plugin.md
+    codex-marketplace-setup.md
+  plugins/
+    plan-handoff/
+      .codex-plugin/plugin.json
+      skills/
+      references/
+      README.md
+      LICENSE
   .gitignore
   AGENTS.md
   LICENSE
@@ -31,9 +41,9 @@ codex-marketplace/
 
 ## Marketplace Scope
 
-- Codex marketplace metadata only
-- Plugin entries that point to independently managed plugin repositories
-- No plugin implementation source in this repository by default
+- Marketplace catalog and supporting repository documentation
+- Installable plugin packages stored under `plugins/` when this repository is their distribution source
+- No unrelated application code or general implementation monorepo scope
 
 ## Codex App Recognition
 

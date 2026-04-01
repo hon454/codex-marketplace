@@ -1,9 +1,6 @@
 ---
 name: save-plan
-description: Save the latest proposed implementation plan from the current Codex session into a repo-local handoff file for a fresh follow-up session. Use when the user asks to save this plan for next session, prepare a plan handoff, or hand off the latest plan without restoring the full session.
-shortDescription: Save the latest proposed plan into a repo-local handoff.
-iconSmall: ./assets/save-plan-small.svg
-iconLarge: ./assets/save-plan.svg
+description: Save the latest proposed plan block from the current Codex session into a repo-local handoff file for a fresh follow-up session. Use when the user asks to save this plan for next session, prepare a plan handoff, or hand off the latest plan without restoring the full session.
 ---
 
 # Save Plan

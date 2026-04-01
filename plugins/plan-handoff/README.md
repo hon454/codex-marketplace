@@ -26,12 +26,20 @@ v1 defaults:
 
 ## Repository layout
 
+The marketplace catalog for this plugin lives at the repository root in `.agents/plugins/marketplace.json`.
+The plugin package itself lives under `plugins/plan-handoff/` and contains the files below.
+
 ```text
 plan-handoff/
   .codex-plugin/plugin.json
-  .agents/plugins/marketplace.json
+  assets/plan-handoff-small.svg
+  assets/plan-handoff.svg
+  skills/save-plan/assets/save-plan-small.svg
+  skills/save-plan/assets/save-plan.svg
   skills/save-plan/SKILL.md
   skills/save-plan/agents/openai.yaml
+  skills/resume-plan/assets/resume-plan-small.svg
+  skills/resume-plan/assets/resume-plan.svg
   skills/resume-plan/SKILL.md
   skills/resume-plan/agents/openai.yaml
   references/handoff-format.md

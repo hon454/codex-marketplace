@@ -1,11 +1,10 @@
 {
   "name": "plan-handoff",
   "version": "0.1.0",
-  "description": "Save the latest proposed plan from a Codex session into a repo-local handoff and resume implementation from it in a fresh session.",
+  "description": "Save the latest proposed implementation plan into a repo-local handoff file and resume implementation from it in a fresh Codex session.",
   "author": {
-    "name": "OpenAI",
-    "email": "support@openai.com",
-    "url": "https://openai.com/"
+    "name": "Jihoon Jeon",
+    "url": "https://github.com/hon454"
   },
   "homepage": "https://github.com/hon454/plan-handoff",
   "repository": "https://github.com/hon454/plan-handoff",
@@ -21,21 +20,19 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Plan Handoff",
-    "shortDescription": "Save a plan handoff and resume it in a fresh session",
-    "longDescription": "Use Plan Handoff to capture the latest proposed implementation plan from the current Codex session into a repo-local handoff file, then resume from that saved plan in a fresh session without restoring the full conversation.",
-    "developerName": "OpenAI",
+    "shortDescription": "Save the latest plan and continue it in a fresh Codex session",
+    "longDescription": "Use Plan Handoff to capture the latest proposed implementation plan from the current Codex session into a repo-local handoff file, then resume implementation from that saved plan in a fresh session without restoring the full conversation.",
+    "developerName": "Jihoon Jeon",
     "category": "Coding",
     "capabilities": [
       "Read",
       "Write"
     ],
     "websiteURL": "https://github.com/hon454/plan-handoff",
-    "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
-    "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
     "defaultPrompt": [
-      "Save the latest plan for next session handoff.",
-      "Resume implementation from the saved handoff.",
-      "Prepare or continue a repo-local plan handoff."
+      "Save the latest proposed plan for a fresh-session handoff.",
+      "Resume implementation from the latest saved handoff.",
+      "Prepare or continue a repo-local plan handoff workflow."
     ],
     "brandColor": "#0F172A",
     "composerIcon": "./assets/plan-handoff-small.svg",

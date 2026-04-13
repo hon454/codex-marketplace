@@ -13,7 +13,7 @@ This plugin exposes a single explicit skill:
 The skill supports two behaviors behind the same entry point:
 
 1. `preflight`: run a lightweight setup check before work starts
-2. `retrospective`: analyze the current session and write a coaching report
+2. `retrospective`: analyze the current session and show a coaching report inline
 
 If the user's request is ambiguous, the skill defaults to retrospective feedback.
 
@@ -62,7 +62,8 @@ The skill should:
 - analyze prompt quality, task decomposition, verification habits, and conversation flow efficiency
 - identify anti-patterns only when there is conversation evidence
 - include concrete alternative prompts
-- write a detailed report to `.codex/coach/reports/YYYY-MM-DD-HHmm.md`
+- show the detailed report in the current session by default
+- save to `.codex/coach/reports/YYYY-MM-DD-HHmm.md` only when the user explicitly asks
 - print a concise terminal summary
 
 ## Constraints
@@ -72,6 +73,7 @@ The skill should:
 - Do not evaluate the agent's quality.
 - Do not assign scores or grades.
 - Do not force findings when the session was already effective.
+- Do not save a report file unless the user asks for it.
 
 ## Example Trigger Phrases
 

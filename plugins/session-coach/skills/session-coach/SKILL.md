@@ -55,8 +55,9 @@ Read `../../references/report-template.md` before formatting the output.
    - a concrete alternative prompt the user could type next time
 6. Include strengths only when they are genuinely supported by the session.
 7. Limit action items to the highest-impact 2.
-8. Write the detailed report to `.codex/coach/reports/YYYY-MM-DD-HHmm.md`.
+8. Show the full feedback inline in the current session using the report structure.
 9. Also print a concise terminal summary.
+10. Save the report to `.codex/coach/reports/YYYY-MM-DD-HHmm.md` only if the user explicitly asks to save it.
 
 ## Guardrails
 
@@ -67,6 +68,8 @@ Read `../../references/report-template.md` before formatting the output.
 - Do not evaluate agent performance.
 - Do not force findings in every dimension.
 - If there are no anti-patterns worth calling out, say so plainly and emphasize strengths plus the next best refinement.
+- Do not write a report file by default.
+- After showing the feedback, you may briefly mention that you can save it if the user wants.
 
 ## References
 

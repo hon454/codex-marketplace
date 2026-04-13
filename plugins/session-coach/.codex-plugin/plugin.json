@@ -1,7 +1,7 @@
 {
   "name": "session-coach",
   "version": "0.1.0",
-  "description": "Review how the user directed the agent in this session and provide actionable coaching on prompts, decomposition, verification, and conversation flow.",
+  "description": "Review how the user directed the agent in this session and provide actionable coaching on prompts, decomposition, verification, and conversation flow, with optional report saving.",
   "author": {
     "name": "Jihoon Jeon",
     "url": "https://github.com/hon454"
@@ -20,7 +20,7 @@
   "interface": {
     "displayName": "Session Coach",
     "shortDescription": "Get feedback on how you used the agent in this session",
-    "longDescription": "Session Coach reviews how you directed the agent in a Codex session. It can do a quick preflight setup check before work starts or generate a retrospective report with evidence-based feedback on prompt quality, task decomposition, verification habits, and conversation flow.",
+    "longDescription": "Session Coach reviews how you directed the agent in a Codex session. It can do a quick preflight setup check before work starts or show evidence-based retrospective feedback on prompt quality, task decomposition, verification habits, and conversation flow. By default it shows feedback inline and only saves a report if you ask.",
     "developerName": "Jihoon Jeon",
     "category": "Coding",
     "capabilities": [

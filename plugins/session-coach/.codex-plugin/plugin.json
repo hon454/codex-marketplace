@@ -1,0 +1,41 @@
+{
+  "name": "session-coach",
+  "version": "0.1.0",
+  "description": "Review how the user directed the agent in this session and provide actionable coaching on prompts, decomposition, verification, and conversation flow.",
+  "author": {
+    "name": "Jihoon Jeon",
+    "url": "https://github.com/hon454"
+  },
+  "homepage": "https://github.com/hon454/codex-marketplace",
+  "repository": "https://github.com/hon454/codex-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "coaching",
+    "feedback",
+    "session",
+    "prompting",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Session Coach",
+    "shortDescription": "Get feedback on how you used the agent in this session",
+    "longDescription": "Session Coach reviews how you directed the agent in a Codex session. It can do a quick preflight setup check before work starts or generate a retrospective report with evidence-based feedback on prompt quality, task decomposition, verification habits, and conversation flow.",
+    "developerName": "Jihoon Jeon",
+    "category": "Coding",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/hon454/codex-marketplace",
+    "defaultPrompt": [
+      "Use $session-coach to check whether this repo is ready for an agentic coding session.",
+      "Use $session-coach to review how I used the agent in this session.",
+      "Use $session-coach to analyze this session and suggest better next prompts."
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/session-coach-small.svg",
+    "logo": "./assets/session-coach.svg",
+    "screenshots": []
+  }
+}

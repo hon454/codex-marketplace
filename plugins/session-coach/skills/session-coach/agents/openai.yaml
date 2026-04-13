@@ -1,0 +1,7 @@
+interface:
+  display_name: "Session Coach"
+  short_description: "Review how the user used the agent"
+  default_prompt: "Use $session-coach to review how I used the agent in this session."
+
+policy:
+  allow_implicit_invocation: false
